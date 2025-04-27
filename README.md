@@ -12,4 +12,4 @@ Go to `chrome://extensions` and enable the developer mode from the top right-han
 After this click to "load unpacked" and choose the cloned project folder.
 
 ![cs2 Exterior Helper Extension](extension.png)
-![Example](example.png)
+![Example](example1.png)
