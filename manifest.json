@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "CS2 Exterior Helper",
+  "version": "1.0",
+  "description": "Shows weapon skin wear condition alongside the name in Steam inventory",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://steamcommunity.com/*/inventory*"],
+      "js": ["helper.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["script.js"],
+      "matches": ["*://steamcommunity.com/*"]
+    }
+  ]
+}
