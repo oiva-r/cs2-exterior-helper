@@ -5,7 +5,7 @@ This simple chrome extension moves the skin wear condition (exterior) next to th
 ## How to add the extension
 
 Git clone the project using:
-`https://github.com/oiva-r/cs2-exterior-helper.git`
+`git clone https://github.com/oiva-r/cs2-exterior-helper.git`
 
 Go to `chrome://extensions` and enable the developer mode from the top right-hand corner.
 
